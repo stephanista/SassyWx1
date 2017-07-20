@@ -1,0 +1,37 @@
+$black: #111;
+$pink: #a81c5f;
+$border-style: 3px dotted $pink;
+
+@import "normalize.css";
+
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}
+
+h2 {
+  color: $pink;
+  text-align: center;
+}
+
+.showwx {
+  text-align: center;
+  padding-top: 1rem;
+  color: black;
+}
+
+.citybuttons {
+  text-align: center;
+  border-style: dotted;
+}
