@@ -1,6 +1,8 @@
 @import url(normalize.css);
 .container {
-  border-style: dotted; }
+  border-style: dotted;
+  width: 50%;
+  margin-left: 25%; }
   .container .citybuttons {
     text-align: center; }
   .container button {

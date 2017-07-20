@@ -6,7 +6,9 @@ $clicky: #89d2e3;
 @import "normalize.css";
 
 .container {
-  border-style: dotted;
+    border-style: dotted;
+    width: 50%;
+    margin-left: 25%;
 
   .citybuttons {
     text-align: center;
